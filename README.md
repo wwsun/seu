@@ -14,5 +14,7 @@ npm install seu --g
 Then, use it to generate your react project:
 
 ```bash
+mkdir NAME && cd NAME
 seu init
+npm install
 ```
