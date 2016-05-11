@@ -11,10 +11,28 @@ Install the `seu` package globally:
 npm install seu --g
 ```
 
-Then, use it to generate your react project:
+### Init
+
+Use `init` command to generate your react project:
 
 ```bash
 mkdir NAME && cd NAME
 seu init
 npm install
+```
+
+### Build
+
+**TBD**
+
+```bash
+seu build
+```
+
+### Dev server
+
+**TBD**
+
+```
+seu server
 ```
