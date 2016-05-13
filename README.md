@@ -31,8 +31,21 @@ seu build
 
 ### Dev server
 
-**TBD**
+Use `server` command to watching files dynamically:
 
 ```
 seu server
 ```
+
+### Lint
+
+**TBD**
+
+```
+seu lint
+```
+
+## Future plan
+
+1. Extract boilerplate
+2. Using ES6 modules
