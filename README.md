@@ -8,8 +8,10 @@ lovely react project generator
 Install the `seu` package globally:
 
 ```bash
-npm install seu --g
+npm install seu -g
+seu -V
 ```
+Using `seu -V` to check if the `seu` package was installed.
 
 ### Init
 
