@@ -1,53 +1,40 @@
-SEU
+SEU [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 ---
 
-lovely react project generator
+A lovely tool set to help you create, build, watch, lint your React components.
+With `seu` package, you can write your react components easily and gladly!
 
 ## Usage
 
-Install the `seu` package globally:
+At first, you should install the `seu` package globally:
 
 ```bash
 npm install seu -g
-seu -V
 ```
-Using `seu -V` to check if the `seu` package was installed.
-
-### Init
-
-Use `init` command to generate your react project:
-
-```bash
-mkdir NAME && cd NAME
-seu init
-npm install
-```
-
-### Build
-
-**TBD**
-
-```bash
-seu build
-```
-
-### Dev server
-
-Use `server` command to watching files dynamically:
+Using `seu -V` to check if the `seu` package was installed:
 
 ```
-seu server
+seu --version
 ```
 
-### Lint
+## Commands
 
-**TBD**
-
-```
-seu lint
-```
+- `seu init`  generate the boilerplate for your project.
+- `seu build`  build your project.
+- `seu server`  watch your project dynamically.
+- `seu lint`  lint your project codes.
 
 ## Future plan
 
 1. Extract boilerplate
 2. Using ES6 modules
+
+## License
+
+MIT © [Weiwei SUN](http://wwsun.github.io)
+
+
+[npm-image]: https://badge.fury.io/js/seu.svg
+[npm-url]: https://npmjs.org/package/seu
+[daviddm-image]: https://david-dm.org/wwsun/seu?theme=shields.io
+[daviddm-url]: https://david-dm.org/wwsun/seu
