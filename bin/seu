@@ -2,6 +2,8 @@
 
 'use strict';
 
+require('babel-polyfill');
+
 const fs = require('fs');
 const path = require('path');
 
@@ -19,7 +21,7 @@ program
   .command('*')
   .description('Build codes')
   .action(cmd => {
-    const commands = ['init', 'build', 'server'];
+    const commands = ['init', 'build', 'server', 'lint'];
     const filePath = path.join(__dirname, `../lib/${cmd}.js`);
 
     co(function* () {
@@ -38,6 +40,7 @@ program
     console.log('    init       Generate project structure');
     console.log('    build      Codes build');
     console.log('    server     Development server');
+    console.log('    lint       Lint your codes');
   });
 
 program
