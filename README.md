@@ -36,5 +36,5 @@ MIT © [Weiwei SUN](http://wwsun.github.io)
 
 [npm-image]: https://badge.fury.io/js/seu.svg
 [npm-url]: https://npmjs.org/package/seu
-[daviddm-image]: https://david-dm.org/wwsun/seu?theme=shields.io
+[daviddm-image]: https://david-dm.org/wwsun/seu.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/wwsun/seu
