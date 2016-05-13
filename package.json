@@ -1,6 +1,6 @@
 {
   "name": "seu",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A simple utility to generate react projects.",
   "main": "index.js",
   "scripts": {
