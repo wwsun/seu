@@ -42,9 +42,6 @@
     "dora-plugin-webpack": "^0.6.4",
     "eslint": "^2.9.0",
     "minimist": "^1.2.0",
-    "node-sass": "^3.7.0",
-    "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.1",
     "through2": "^2.0.1",
     "vinyl-fs": "^2.4.3",
     "webpack-hot-middleware": "^2.10.0"
