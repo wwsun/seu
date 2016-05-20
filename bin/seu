@@ -2,46 +2,4 @@
 
 'use strict';
 
-require('babel-polyfill');
-
-const fs = require('fs');
-const path = require('path');
-
-const co = require('co');
-const chalk = require('chalk');
-const program = require('commander');
-
-const pkg = require('../package.json');
-
-program
-  .version(pkg.version)
-  .usage('[command] [option]');
-
-program
-  .command('*')
-  .description('Build codes')
-  .action(cmd => {
-    const commands = ['init', 'build', 'server', 'lint'];
-    const filePath = path.join(__dirname, `../lib/${cmd}.js`);
-
-    co(function* () {
-      let args = process.argv.slice(3);
-      yield require(filePath)(args);
-    }).catch(err => {
-      console.error(chalk.red(err.stack));
-      process.exit(1);
-    });
-
-  });
-
-program
-  .on('--help', () => {
-    console.log('');
-    console.log('    init       Generate project structure');
-    console.log('    build      Codes build');
-    console.log('    server     Development server');
-    console.log('    lint       Lint your codes');
-  });
-
-program
-  .parse(process.argv);
+require('../lib');
