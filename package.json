@@ -1,6 +1,6 @@
 {
   "name": "seu",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "A simple utility to generate react projects.",
   "main": "index.js",
   "files": [
@@ -44,8 +44,8 @@
     "co": "^4.6.0",
     "commander": "^2.9.0",
     "dora": "^0.3.2",
-    "dora-plugin-hmr": "^0.5.0",
-    "dora-plugin-livereload": "^0.3.1",
+    "dora-plugin-hmr": "^0.6.0",
+    "dora-plugin-livereload": "^0.4.0",
     "dora-plugin-webpack": "^0.6.4",
     "eslint": "^2.10.1",
     "eslint-config-airbnb": "^9.0.1",
