@@ -3,8 +3,14 @@
   "version": "0.4.1",
   "description": "A simple utility to generate react projects.",
   "main": "index.js",
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf lib && babel src --out-dir lib --ignore __tests__",
+    "prepublish": "npm run build"
   },
   "bin": "./bin/seu",
   "repository": {
@@ -51,5 +57,17 @@
     "through2": "^2.0.1",
     "vinyl-fs": "^2.4.3",
     "webpack-hot-middleware": "^2.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
   }
 }
