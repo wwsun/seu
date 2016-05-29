@@ -16,7 +16,7 @@ program
   .command('*')
   .description('Build codes')
   .action(cmd => {
-    const commands = ['init', 'build', 'server', 'lint'];
+    const commands = ['init', 'build', 'site', 'server', 'lint'];
     const filePath = path.join(__dirname, `../lib/${cmd}.js`);
 
     co(function* () {
@@ -34,6 +34,7 @@ program
     console.log('');
     console.log('    init       Generate project structure');
     console.log('    build      Codes build');
+    console.log('    site       Build the static site');
     console.log('    server     Development server');
     console.log('    lint       Lint your codes');
   });

@@ -1,7 +1,7 @@
 {
   "name": "seu",
   "version": "0.4.3",
-  "description": "A simple utility to generate react projects.",
+  "description": "A simple utility to allow you writing react project fastly and easily with ES6, state-0, sass...",
   "main": "index.js",
   "files": [
     "lib",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/wwsun/seu#readme",
   "dependencies": {
-    "atool-build": "^0.7.1",
+    "atool-build": "^0.7.5",
     "babel-core": "^6.8.0",
     "babel-eslint": "^6.0.4",
     "babel-loader": "^6.2.4",
