@@ -44,7 +44,7 @@
     "co": "^4.6.0",
     "commander": "^2.9.0",
     "dora": "^0.3.2",
-    "dora-plugin-hmr": "^0.6.0",
+    "dora-plugin-hmr": "^0.6.1",
     "dora-plugin-livereload": "^0.4.0",
     "dora-plugin-webpack": "^0.6.4",
     "eslint": "^2.10.1",
