@@ -4,6 +4,8 @@
   "description": "A simple utility to allow you writing react project fastly and easily with ES6, state-0, sass...",
   "main": "index.js",
   "files": [
+    "bin",
+    "boilerplate",
     "lib",
     "package.json",
     "README.md"
