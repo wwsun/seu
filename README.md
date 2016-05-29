@@ -11,7 +11,7 @@ At first, you should install the `seu` package globally:
 ```bash
 npm install seu -g
 ```
-Using `seu -V` to check if the `seu` package was installed:
+Using `seu --version` to check if the `seu` package was installed:
 
 ```
 seu --version
@@ -20,14 +20,16 @@ seu --version
 ## Commands
 
 - `seu init`  generate the boilerplate for your project.
-- `seu build`  build your project.
+- `seu build`  build your project (for react component development)
+- `seu site` build the site (for react-based static site development)
 - `seu server`  watch your project dynamically.
 - `seu lint`  lint your project codes.
 
 ## Future plan
 
 1. Extract boilerplate
-2. Using ES6 modules
+2. <del>Using ES6 modules</del>
+3. Using `seu` to generate node-based react-based projects, different boilerplates in remote repos
 
 ## License
 
