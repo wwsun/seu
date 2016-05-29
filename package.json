@@ -1,6 +1,6 @@
 {
   "name": "seu",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A simple utility to allow you writing react project fastly and easily with ES6, state-0, sass...",
   "main": "index.js",
   "files": [
