@@ -1,8 +1,14 @@
 SEU [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 ---
 
-A lovely tool set to help you create, build, watch, lint your React components.
+SEU, which is short for So Easy Utility. It's a lovely tool set to help you create, build, watch, lint your React projects.
 With `seu` package, you can write your react components easily and gladly!
+
+## Intro
+
+This tool is for learning and testing. The `create-react-app` is the best choice for you to coding with react.
+
+> https://github.com/facebookincubator/create-react-app
 
 ## Usage
 
