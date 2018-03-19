@@ -7,7 +7,7 @@ import server from './commands/server';
 
 yargs
   .command(build)
-  .command(server)
+  // .command(server)
   .usage(`seu ${pkg.version}`)
   .help()
   .alias('h', 'help')

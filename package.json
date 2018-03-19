@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "prebuild": "rm -fr lib",
-    "build": "./node_modules/.bin/babel/babel src -d lib -D",
+    "build": "babel src -d lib -D",
     "prepublish": "npm run build"
   },
   "repository": {
